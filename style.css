@@ -60,7 +60,7 @@ h1{
 }
 
 h3{
-    font-size: 30px;
+    font-size: 21px;
 }
 
 h2 a{
@@ -82,14 +82,16 @@ a:visited{
 }
 
 nav{
-    width:500px;   
+    width:500px; 
+    display: flex;  
 }
 
 ul{
-    width: 75%;
+    width:500px;
      display:flex ;
    justify-content: space-between;
-   align-items: center;
+   align-items:center;
+   
 }
 
 h1.sub-heading{
