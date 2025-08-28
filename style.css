@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1000px;
+    padding: 20px;
+    padding-left: 30px;
+}
+
+li{
+    display: inline-block;
+    justify-content: space-between;
+}
+
+/* header{
+    margin-top:50px;
+    border: 1px dashed black;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:90px;
+    
+}
+
+header div{
+    width: 100px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+header nav{ 
+    display: flex;
+    flex-direction: row;
+    width: 300px ;
+    border: 1px dashed blue;
+    height: 50px;} */
+
+.hero{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+    margin-top: 60px;
+}
+
+.container{
+    margin-top:50px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:60px;
+    width: 1250px;
+}
+
+h1{
+    margin-bottom :40px;
+    font-size: 70px;
+    font-family: 'STIX Two Text', serif;
+    font-weight: 500;
+}
+
+h3{
+    font-size: 30px;
+}
+
+h2 a{
+   text-decoration: underline;
+   color: black;
+   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    justify-content: space-between;
+    font-weight: 700;
+}
+
+a:visited{
+    color:black;
+    text-decoration: underline;
+}
+
+nav{
+    width:500px;   
+}
+
+ul{
+    width: 75%;
+     display:flex ;
+   justify-content: space-between;
+   align-items: center;
+}
+
+h1.sub-heading{
+    font-size: 38px;
+    margin-top: 70px;
+    margin-left: 150px;
+    width: 1000px;
+}
+
+.main h2{
+    font-size:35px;
+    margin-bottom: 30px;;
+}
+
+.main p{
+    font-size: 18px;
+    width: 900px;;
+}
+
+.section{
+    display:flex;
+    gap:2rem ;
+}
+
+.min{
+    margin-top: 30px;
+}
+
+
+.content{
+    margin-top: 50px;
+    background-color: rgb(98, 245, 98);
+    width: 1250px;
+    height: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;  
+    font-family: 'Times New Roman', Times, serif; 
+}
+
+.content h2{
+    margin-bottom: 25px;
+    font-size: 35px;
+}
+
+
+button{
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+
+
+
+
+    
+
+
+
